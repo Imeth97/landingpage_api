@@ -1,15 +1,15 @@
-let w = window.innerWidth;
-let h = window.innerHeight;
 
-let url_ = 'https://unsplash.it/' + w + '/' + h
+
+let url_ = 'https://unsplash.it/3840/2160'
 console.log(url_)
+let img = document.getElementById('main_img');
 
 fetch(url_).then(res => res.blob()).then(blob => {
 
-    let img = document.createElement('img');
+    
     img.src = URL.createObjectURL(blob);
 
-    document.querySelector('body').appendChild(img);
+    
 
 
 })

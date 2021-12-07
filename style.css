@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Noto Serif', serif;
+}
+
+#main_img {
+
+    width: 100%;
+
+}
+
+#main #titleMain {
+    
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+
+} 
+
+#main #titleMain h1{
+    
+    
+    font-size: 48px;
+
+}
+
+#main #titleMain p {
+    font-size: 24px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background: #333;
+
+}
+
+footer p {
+    color: #fff;
+}
