@@ -3,7 +3,10 @@
 * {
     margin: 0;
     font-family: 'Noto Serif', serif;
+    background: #000;
 }
+
+
 
 #main_img {
 
@@ -13,33 +16,43 @@
 
 #main #titleMain {
     
+    
     position: absolute;
     z-index: 1;
     top: 10%;
-    margin-top: 100px;
-    width: 100%;
+    margin: 100px;
+    width: 50%;
     text-align: center;
+    
 
 } 
 
 #main #titleMain h1{
     
-    
+    padding: 20px;
     font-size: 48px;
+    background: #fff;
+    
 
 }
 
 #main #titleMain p {
     font-size: 24px;
+    background: #fff;
+    padding: 20px;
+    
 }
 
 footer {
     width: 100%;
     text-align: center;
     background: #333;
+    padding: 20px;
 
 }
 
 footer p {
     color: #fff;
+    background: #333;
+
 }
